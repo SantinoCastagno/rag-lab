@@ -19,7 +19,7 @@ class Settings(BaseSettings):
 
     # Shared
     CHROMA_PERSIST_DIRECTORY: str = "./data/chroma_db"
-    PHOENIX_PROJECT_NAME: str = "rag-lab"
+    PHOENIX_PROJECT_NAME: str = "rag-mvp"
     RETRIEVER_K: int = 5
     LLM_TEMPERATURE: float = 0.7
     CHUNK_SIZE: int = 1000

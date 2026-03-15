@@ -1,4 +1,4 @@
-# RAG Lab
+# RAG MVP
 
 Este proyecto es un sistema modular de Generación Aumentada por Recuperación (RAG), que demuestra:
 - **LLM / Embeddings:** Agnóstico al proveedor mediante patrón factory — soporta **Google Gemini** (por defecto) y **Ollama**. Se cambia con la variable de entorno `LLM_PROVIDER`.

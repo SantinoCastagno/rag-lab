@@ -82,7 +82,7 @@ Pydantic-settings model loaded from `.env` at startup.
 | `OLLAMA_MODEL` | `str` | `"mistral"` | Ollama LLM model name |
 | `OLLAMA_EMBEDDINGS_MODEL` | `str` | `"nomic-embed-text"` | Ollama embeddings model name |
 | `CHROMA_PERSIST_DIRECTORY` | `str` | `"./data/chroma_db"` | ChromaDB persistence path |
-| `PHOENIX_PROJECT_NAME` | `str` | `"rag-lab"` | Arize Phoenix project label |
+| `PHOENIX_PROJECT_NAME` | `str` | `"rag-mvp"` | Arize Phoenix project label |
 | `RETRIEVER_K` | `int` | `5` | Number of chunks retrieved per query |
 | `LLM_TEMPERATURE` | `float` | `0.7` | LLM sampling temperature |
 | `CHUNK_SIZE` | `int` | `1000` | Document chunk size in characters |

@@ -1,5 +1,5 @@
 [project]
-name = "rag-lab"
+name = "rag-mvp"
 version = "0.1.0"
 description = "Basic RAG with LangChain, Streamlit, FastAPI, ChromaDB and Phoenix"
 authors = [

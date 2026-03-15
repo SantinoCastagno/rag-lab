@@ -4,9 +4,9 @@ import uuid
 
 API_URL = "http://localhost:8000"
 
-st.set_page_config(page_title="Basic RAG Lab", layout="wide")
+st.set_page_config(page_title="Basic RAG MVP", layout="wide")
 
-st.title("Basic RAG Lab")
+st.title("Basic RAG MVP")
 st.caption("Powered by Gemini or Ollama")
 
 # Initialize Session ID

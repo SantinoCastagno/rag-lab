@@ -55,7 +55,7 @@ The system is a **monolithic RAG application** composed of three layers: a Strea
 ## Codebase & Directory Map
 
 ```
-rag-lab/
+rag-mvp/
 ├── app/
 │   ├── api/            # FastAPI app and route handlers
 │   │   ├── main.py     # App factory, Phoenix instrumentation

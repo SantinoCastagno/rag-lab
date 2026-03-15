@@ -1,4 +1,4 @@
-# RAG Lab
+# RAG MVP
 
 > [Versión en español](README.es.md)
 
