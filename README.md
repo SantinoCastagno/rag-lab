@@ -1,8 +1,7 @@
-# Gemini RAG Lab
+# RAG Lab
 
 This project is a modular Retrieval Augmented Generation (RAG) system, showcasing:
-- **LLM:** Google Gemini 2.5 Flash-Lite
-- **Embeddings:** Google Generative AI Embeddings
+- **LLM / Embeddings:** Provider-agnostic via factory pattern — supports **Google Gemini** (default) and **Ollama**. Switch with `LLM_PROVIDER` env variable.
 - **Vector Store:** ChromaDB (local persistence)
 - **Backend:** FastAPI
 - **Frontend:** Streamlit
@@ -17,10 +16,10 @@ This project is a modular Retrieval Augmented Generation (RAG) system, showcasin
    ```
 
 2. **Environment Variables:**
-   Create a `.env` file in the root directory by copying `.env.example` and fill in your `GOOGLE_API_KEY`.
+   Create a `.env` file copying `.env.example` and configure the provider. `GOOGLE_API_KEY` is required only when `LLM_PROVIDER=gemini`.
    ```bash
    cp .env.example .env
-   # Edit .env with your GOOGLE_API_KEY
+   # Edit .env: set LLM_PROVIDER and the corresponding credentials/URLs
    ```
 
 ## Running the Application
